@@ -1,0 +1,74 @@
+﻿body {
+    font-family: 'Times New Roman';
+    background-color: #f7e50a9c;
+}
+header{
+    text-align:center;
+    color:blue;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+h2 {
+    text-align: center;
+    color: red;
+}
+.good1 {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    width: 30%;
+    border: 2px solid black;
+    margin: 8px;
+    box-shadow: 10px 5px 5px grey;
+}
+.good2 {
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    width: 30%;
+    border: 2px solid black;
+    margin: 8px;
+    box-shadow: black;
+    box-shadow: 10px 5px 5px coral;
+}
+.good3 {
+    display: flex;
+    flex-direction: column;
+    background-color: darkseagreen;
+    width: 30%;
+    border: 2px solid black;
+    margin: 8px;
+    box-shadow: 10px 5px 5px darkolivegreen;
+}
+.good1 img {
+    padding-left: 15%;
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5.5%
+}
+.good2 img {
+    padding-left: 25%;
+    width: 50%;
+}
+.good3 img {
+    padding-left: 23%;
+    width: 55%;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+h3{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+button:hover {
+    background-color: blue;
+    color:white;
+    transition: 0.7s;
+}
